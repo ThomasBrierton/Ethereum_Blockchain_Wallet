@@ -19,7 +19,7 @@ This project uses the standard Python 3.8 and requires the following libraries a
 
 ---
 
-### Imports
+## Imports
 
 Imports for fintech_finder.py file:
 ```
@@ -43,7 +43,7 @@ from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 ---
 
-#### Methods
+## Methods
 
 1. Create crypto_wallet.py file that contains the Ethereum transaction functions (generate account, get balance, send transaction).
 2. Create the fintech_finder.py. Import the functions from the crypto_wallet.py file. Add the menmonic from Ganache and then add the candidate information to streamlit, and add streamlit functionality that allows a customer to sign and execute a payment transaction.
@@ -51,7 +51,7 @@ from web3.gas_strategies.time_based import medium_gas_price_strategy
 
 ---
 
-##### Launching the Streamlit App
+## Launching the Streamlit App
 
 1. Fork and clone the repository to your local machine.
 2. Open Ganache and create a new Ethereum workspace. Copy the mnemonic and paste it into the sample.env file.
@@ -66,4 +66,34 @@ streamlit run fintech_finder.py
 
 ---
 
-###### Results
+## App Overview
+
+The following screenshot shows the landing page and the "Select a Person" dropdown menu:
+![](https://github.com/ThomasBrierton/Ethereum_Blockchain_Wallet/blob/main/Images/Screen%20Shot%202022-05-16%20at%207.38.37%20PM.png)
+
+The following screenshot shows the "Number of Hours" feature:
+![](https://github.com/ThomasBrierton/Ethereum_Blockchain_Wallet/blob/main/Images/Screen%20Shot%202022-05-16%20at%207.40.52%20PM.png)
+
+The following screenshot shows the sample transaction hiring Jo for 30 hours:
+![](https://github.com/ThomasBrierton/Ethereum_Blockchain_Wallet/blob/main/Images/Screen%20Shot%202022-05-16%20at%207.41.32%20PM.png)
+
+The following screenshot shows the transaction in Ganache:
+![](https://github.com/ThomasBrierton/Ethereum_Blockchain_Wallet/blob/main/Images/Screen%20Shot%202022-05-16%20at%207.44.58%20PM.png)
+
+The following screenshot shows the TX Hash in Ganache that matching the hash in Streamlit:
+![](https://github.com/ThomasBrierton/Ethereum_Blockchain_Wallet/blob/main/Images/Screen%20Shot%202022-05-16%20at%207.42.48%20PM.png)
+
+The following screenshot shows the transaction in Ganache in more detail:
+![](https://github.com/ThomasBrierton/Ethereum_Blockchain_Wallet/blob/main/Images/Screen%20Shot%202022-05-16%20at%207.43.16%20PM.png)
+
+---
+
+## Contributors 
+
+Thomas Brierton and UCB
+
+---
+
+## License
+
+MIT
